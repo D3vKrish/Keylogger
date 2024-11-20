@@ -16,7 +16,7 @@ from datetime import datetime
 import pygetwindow as pw
 
 # Configuration constants
-FILE_PATH = "C:\\Users\\Krish Garg\\OneDrive\\Desktop\\BitsKrieg"
+FILE_PATH = os.path.dirname(os.path.abspath(__file__))
 EXTEND = "\\"
 FILE_MERGE = FILE_PATH + EXTEND
 BROWSER_INFO = "browser.txt"
